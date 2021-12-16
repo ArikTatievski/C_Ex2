@@ -159,7 +159,7 @@ void gematria(int val, char text[]){
         int target= val - convertToGeo(text[i]);
         if(target == 0){
             if(firstPrint){printf("~");}
-            printf(text[i]);
+            printf("%c",text[i]);
             firstPrint = 1;
             continue;
         }
