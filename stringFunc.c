@@ -165,6 +165,7 @@ void gematria(int val, char text[]){
         }
         int j=i+1;
         while (target>=0){
+            if(text[j] == '\0'){break;}
             if(target- convertToGeo(text[j])<0){break;}
             else if(target- convertToGeo(text[j]) == 0){
                 if(firstPrint){printf("~");}
