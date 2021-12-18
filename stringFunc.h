@@ -8,7 +8,7 @@ int convertToGeo(char c)
 /*
  * This function searches in the text for all of the combinations with the same gematric value
 */
-int gematria(int val, char text[]);
+void gematria(int val, char text[]);
 /*
  * This function searches of atbash sequences of the word in the text
 */

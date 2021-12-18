@@ -1,10 +1,15 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include "stringFunc.c"
 
 #define wordLen 30
 #define textLen 1024
+
+
+int convertToGeo(char c);
+void gematria(int val, char text[]);
+void AtbashSequences(char text[], char word[]);
+void anagram(char text[], char word[]);
 
 int main() {
     char try[6]="H e l";
