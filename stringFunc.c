@@ -79,6 +79,9 @@ char toAbtashLetter (char c){
     else if(c=='Y'){return 'B';}
     else if(c=='z'){return 'a';}
     else if(c=='Z'){return 'A';}
+    else{
+        return c;
+    }
 }
 
 
@@ -277,7 +280,7 @@ void anagram(char text[], char word[]){
         int t = 0;
         for(int j=0;t<wordlen;j++){
             nomanie[k] = text[i+j];
-            if(text[i+j] == "" || text[i+j] == ' ' || text[i+j] == '\n' || text[i+j] == '\t'){
+            if(text[i+j] == ' ' || text[i+j] == '\n' || text[i+j] == '\t'){
                 t--;
             }
             t++;
