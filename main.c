@@ -1,11 +1,14 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include "stringFunc.c"
 
 #define wordLen 30
 #define textLen 1024
 
 int main() {
+    char try[6]="H e l";
+    printf("%s",try);
     char word[wordLen];
     char text[textLen];
     int i=0;
