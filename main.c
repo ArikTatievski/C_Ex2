@@ -5,9 +5,13 @@
 #define wordLen 30
 #define textLen 1024
 
+
+int convertToGeo(char c);
+void gematria(int val, char text[]);
+void AtbashSequences(char text[], char word[]);
+void anagram(char text[], char word[]);
+
 int main() {
-    char try[6]="H e l";
-    printf("%s",try);
     char word[wordLen];
     char text[textLen];
     int i=0;
