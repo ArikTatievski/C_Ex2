@@ -1,7 +1,7 @@
-#Author
+# Author
 Arik Tatievski, contact via mail: ariktatievski@gmail.com.
 
-#What is this project?
+# What is this project?
 This project is a low-key string fuctions to show how we can work on strings on C.
 
 What we have in this project is 2 .c files -> Main, stringFunc.
@@ -18,7 +18,7 @@ abtash - searches for abtasah sequences of the "word" in the "text"
 
 anagram - searches for sub-suequences that contain the "word" in the "text" (DOES NOT INCLUDE MEANINGLESS KEYS SUCH AS 0-9,#!@ etc..)
 
-#How to activate
+# How to activate
 
 Please open a Linux enviroment (or use bash on cmd) and type "make all", after that all the files will apear and you will have to open the ./exe file
 
